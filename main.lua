@@ -258,19 +258,8 @@ print(" Enpoint Loaded")
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/memaybeohub/Function-Scripts/main/OrionLib.lua"))() 
 
 print(" Gui Loaded")
-function init() 
- 
-  Arisu = loadstring(game:HttpGet("https://arisu.iesnesanulwl.repl.co/files/Arisu.lua"))()
-  print(" Loading ArisuLib")
-  if not Arisu then 
-    print(" Failed To Connecting, Retry In 15Seconds")
-    wait(15)  
-  
-    return init()
-  end 
-end
 
-init() 
+
 
 nexus = {
   Point = {},
@@ -5678,8 +5667,6 @@ setfflag("AbuseReportScreenshotPercentage", "0")
   
 print(" Successfully Loaded")
 Arisu.Loaded = true
-
-OrionLib:Init()
 end
 if nexus.AutoBounty.Start and nexus.WHBounty then 
   lllll = ""
