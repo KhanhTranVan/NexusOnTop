@@ -1,6 +1,3 @@
-
-
-
 scripts_config = {
   Script_Id = 1,
   Project_Id = 1,
@@ -10,20 +7,6 @@ scripts_config = {
 game.CoreGui.RobloxPromptGui.promptOverlay.ChildAdded: Connect(function(c) 
   c.TitleFrame.ErrorTitle.Text = "Script Error"
 end)
-getgenv().ArisuLib = {
-  Init = function() 
-    
-      for i = 1, 100, 2 do
-                        blur.Size = 50 - i
-                       -- ImageLabel.Transparency = ImageLabel.Transparency + 0.1
-                      
-                        wait()
-      end
- 
-                    blur:Destroy()
-                    ScreenGui:Destroy() 
-                    end
-}
 
 function crash(errors) 
   if scripts_config.Action_When_Detected == "Kick" then
