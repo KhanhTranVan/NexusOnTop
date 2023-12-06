@@ -174,11 +174,6 @@ local args = {
                       
                         wait()
    end
-if game.CoreGui: FindFirstChild("Arisu") then return end 
-
---TextLabel.Text = "Successfully Loaded"
- 
-do 
   
 print(" Enpoint Loaded")
 
