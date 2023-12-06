@@ -1,6 +1,4 @@
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/memaybeohub/Function-Scripts/main/OrionLib.lua"))() 
-print(" Enpoint Loaded")
-print(" Gui Loaded")
 
 nexus = {
   Point = {},
