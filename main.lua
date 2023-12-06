@@ -1,16 +1,6 @@
-local args = {
-                [1] = "SetTeam",
-                [2] = "Pirates"
-            }
-            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args)) 
-  
-print(" Enpoint Loaded")
-
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/memaybeohub/Function-Scripts/main/OrionLib.lua"))() 
-
+print(" Enpoint Loaded")
 print(" Gui Loaded")
-
-
 
 nexus = {
   Point = {},
